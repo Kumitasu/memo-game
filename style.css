@@ -29,3 +29,15 @@ header {
     height:50px;
     display: flex;
 }
+button{
+    background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #52c274, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #52c274, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:20px;
+    border-radius:15px;
+    font-size:1rem;
+    display: flex;
+    justify-content: center;
+
+
+}
