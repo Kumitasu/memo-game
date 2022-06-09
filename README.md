@@ -18,6 +18,6 @@
 
  ### What to work for
  - Add more styling
- - ~~Add button to restart the game ~~
+ - ~~Add reset button~~
  - Create option for choosing size of grid
  
