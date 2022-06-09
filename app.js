@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.type = "reset";
         btn.name = "resetBtn";
         btn.onclick = function () {
-          alert("Button is clicked");
+          location.reload();
         };
         document.body.appendChild(btn);
 
