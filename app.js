@@ -101,6 +101,15 @@ document.addEventListener('DOMContentLoaded', () => {
       resultDisplay.textContent = cardsMatched.length
       if  (cardsMatched.length === cardArray.length/2) {
         resultDisplay.textContent = 'Bravo!'
+        let btn = document.createElement("button");
+        btn.innerHTML = "Play again";
+        btn.type = "reset";
+        btn.name = "resetBtn";
+        btn.onclick = function () {
+          alert("Button is clicked");
+        };
+        document.body.appendChild(btn);
+
        
       }
     }
