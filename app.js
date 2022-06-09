@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let btn = document.createElement("button");
         btn.innerHTML = "Play again";
         btn.type = "reset";
-        btn.name = "resetBtn";
+        btn.class = "resetBtn";
         btn.onclick = function () {
           location.reload();
         };
